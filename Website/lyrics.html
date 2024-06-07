@@ -2,8 +2,88 @@
 <html>
     <head>
         <title> my song lyrics</title>
+        <link rel="icon" type="images/jpg" href="images\favicon.jpg">
     </head>
     <body>
+        <header style="background-color: aquamarine;">
+            <h1>Leonardo Page</h1>
+            <a href="">Home</a>
+            <a href="">About us</a>
+            <a href="">Product</a>
+            <a href="">Contact us</a>
+            <hr>
+        </header>
+
+        <main> 
+          <h4>Checkout these cool moves</h4>
+          <image src="images\favicon.jpg" alt="profile pic">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciend</p>
+        </main>
+
+       
+      <form action="index.php" method="POST" enctype="multipart/form-data">
+
+        <label for="username">username</label>
+        <input type="text" id="username" placeholder="spongbob" minlength="6" maxlength="15"><br>
+
+        <label for="password">password</label>
+        <input type="password" id="password" minlength="6" maxlength="15"><br>
+
+        <label for="email">email</label>
+        <input type="email" id="email" placeholder="sqaure@gmail.com"><br>
+        
+        <label for="phone">phone no</label>
+        <input type="tel" id="phone" placeholder="+234-706-549-9251" pattern="[0-9]{3}[0-9]{4}"><br>
+
+        <label for="bady">birthday</label>
+        <input type="date" id="bady"><br>
+
+        <label for="quantity">quantity</label>
+        <input type="number" id="quantity" min="o" max="99" value="1"><br>
+
+        <label for="title">title:</label>
+
+        <label for="Mr.">Mr.</label>
+        <input type="radio" id="Mr." value="Mr." name="title">
+        <label for="Ms.">Ms.</label>
+        <input type="radio" id="Ms." value="Ms."name="title">
+        <label for="phD.">phD.</label>
+        <input type="radio" id="phD." value="phD" name="title"><br>
+        
+        <label for="payment">payment</label>
+        <select id="payment">
+            <option value="visa">visa</option>
+            <option value="mastercard">mastercard</option> </option>
+            <option value="giftcard">giftcard </option>
+        </select><br>
+
+        <label for="subscribe">subscribe</label>
+        <input type="checkbox" id="subscribe"><br>
+        
+        <label for="comment">comment</label>
+        <textarea id="comment" rows="3" cols="25"></textarea><br>
+
+        <label for="file">file</label>
+        <input type="file" id="file" accept="image/png, image/jpeg"><br>
+
+        
+        <input type="reset"><br>
+        <input type="submit">
+        
+
+      </form>
+
+        
+      
+    
+        <button onclick="dosomething()" style="font: size 25px; background-color: gray; color:lightblue; border-radius: 25px ;"> click me </button>
+     
+        <p id="greeting"> Hello</p>
+        <script>
+          function dosomething(){
+            document.getElementById("greeting").innerHTML = "Goodbye"
+          }
+        </script>
       <p>this is normal text</p>
     <p>this is <b>bold</b> text </p>
     <p>this is <i>italic</i> text </p>
@@ -172,6 +252,12 @@
             Source: LyricFind
             Songwriters: Magne Furuholmen / Morten Harket / Pal Waaktaar
             Take On Me lyrics © Sony/ATV Music Publishing LLC
+            
+            <footer>
+              <hr>
+              author: Leonardo Page<br>
+              &copy; copy right resvered<br>
+            </footer>
         </p>
         </body>
 </html>

@@ -1,0 +1,15 @@
+body{
+    background-color:#65dd15;
+}
+#p1{
+    color: tomato;
+}
+#p2{
+    columns:  rgb#45b093 ;
+}
+#p3{
+    color:#7ce874 ;
+}
+#p4{
+    color:hsl(327, 76%, 55%);
+}
