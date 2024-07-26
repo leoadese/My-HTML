@@ -1,0 +1,18 @@
+#box1{
+    width: 200px;
+    height: 200px;
+    background-color: hsla(240, 35%, 37%, 0.747);
+    position: sticky;
+    top: 0px;
+    
+  
+}
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: hsla(4, 92%, 48%, 0.747);
+    position: absolute;
+    top: 50px;
+    left: 50px;
+  
+}
